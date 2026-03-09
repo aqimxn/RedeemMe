@@ -1,0 +1,115 @@
+#modal-update {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+.modal-container-update {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 70%;
+    height: 250px;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    z-index: 9999;
+    overflow: auto;
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0} 
+    to {top: 0; opacity: 1}
+}
+
+.modal-container-update form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container-update h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.modal-container-update p {
+    margin: 5px 0;
+}
+
+.close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#back-button {
+    color: #fff;
+    padding: 5px 10px;
+    margin-top: 20px;
+    border: none;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    border-radius: 5px;
+    justify-self: center;
+}
+
+#back-button:hover {
+    background-color: #ddd;
+}
+
+#submit-btn {
+    padding: 5px 20px;
+    margin-top: 20px;
+    border: none;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(119, 188, 249);
+    justify-self: center;
+}
+
+#submit-btn:hover {
+    background-color: rgb(92, 175, 248);
+}
+
+.badge:hover{
+    cursor: pointer;
+}
+
+.btn{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    column-gap: 20px;
+}
+
+select{
+    width: 60%;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select:hover{
+    cursor: pointer;
+}
+

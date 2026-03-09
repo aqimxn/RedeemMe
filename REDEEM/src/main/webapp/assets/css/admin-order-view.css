@@ -1,0 +1,93 @@
+#modal-view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+.modal-container-view {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 80%;
+    height: 540px;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    z-index: 9999;
+    overflow: auto;
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0} 
+    to {top: 0; opacity: 1}
+}
+
+.modal-container-view h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.modal-container-view p {
+    margin: 5px 0;
+}
+
+.modal-container-view table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.modal-container-view table, .modal-container-view th, .modal-container-view td {
+    border: 1px solid #ccc;
+}
+
+.modal-container-view th, .modal-container-view td {
+    padding: 8px;
+    text-align: left;
+}
+
+.modal-container-view th {
+    background-color: #f2f2f2;
+}
+
+.close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#back-button {
+    align-self: flex-end;
+    color: #fff;
+    padding: 5px 10px;
+    margin-top: 20px;
+    border: none;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 5px;
+}
+
+#back-button:hover {
+    background-color: #ddd;
+}
+
+.badge:hover{
+    cursor: pointer;
+}

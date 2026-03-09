@@ -1,0 +1,4 @@
+127.0.0.1 - - [08/May/2025:15:56:14 +0800] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [08/May/2025:15:56:15 +0800] "GET /RedeemMe/sign-up.jsp HTTP/1.1" 200 6020
+0:0:0:0:0:0:0:1 - - [08/May/2025:15:56:15 +0800] "GET /RedeemMe/assets/css/sign-up.css HTTP/1.1" 200 4341
+0:0:0:0:0:0:0:1 - - [08/May/2025:15:56:17 +0800] "GET /RedeemMe/assets/images/favicon.ico HTTP/1.1" 200 15406

@@ -1,0 +1,114 @@
+.content-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2.5em;
+    padding-top: 50px;
+}
+
+.box {
+    background-color: #b3d1ff;
+    padding: 20px;
+    border-radius: 30px;
+    position: relative;
+    width: 270px;
+    height: 350px;
+    box-shadow: 0 15px 8px rgba(0, 0, 0, 0.2); /* Add shadow to the box */
+}
+
+.box h1{
+    font-size: 100px;
+    color: #000;
+    position: absolute;
+    text-align: center;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.big-title a{
+    text-decoration: none;
+    color: white;
+}
+
+.big-title a:hover{
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.customer-title a:hover{
+    color: rgb(212, 223, 227);
+}
+
+.order-title a:hover{
+    color: rgb(188, 222, 181);
+}
+
+.product-title a:hover{
+    color: rgb(209, 220, 166);
+}
+
+.supplier-title a:hover{
+    color: rgb(174, 231, 174);
+}
+
+
+.box .big-title {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+.box .big-title.customer-title {
+    background-color: rgb(96, 96, 132);
+}
+.box.customer{
+    background-color: rgb(212, 223, 227);
+}
+
+.box .big-title.order-title {
+    background-color: rgb(38, 78, 30);
+}
+.box.order{
+    background-color: rgb(188, 222, 181);
+}
+
+.box .big-title.product-title {
+    background-color: rgb(109, 114, 8);
+}
+.box.product{
+    background-color: rgb(209, 220, 166);
+}
+
+.box .big-title.supplier-title {
+    background-color: rgb(48, 155, 243);
+}
+.box.supplier{
+    background-color: rgb(196, 212, 244);
+}
+
+.title {
+    display: block;
+    margin-top: 50px; /* Adjust margin as needed */
+    color: #666;
+}
+
+@media (max-width: 600px) {
+    .content-page{
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 30px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        padding-bottom: 15px;
+        justify-content: center;
+    }
+}

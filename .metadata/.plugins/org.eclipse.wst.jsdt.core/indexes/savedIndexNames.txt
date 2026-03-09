@@ -1,0 +1,10 @@
+INDEX VERSION 1.4+C:\Users\aqima\OneDrive\Desktop\myproject\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3134863436.index
+2216106408.index
+994871904.index
+1189569377.index
+1252884377.index
+2476898990.index
+1325933652.index
+58978076.index
+676810445.index

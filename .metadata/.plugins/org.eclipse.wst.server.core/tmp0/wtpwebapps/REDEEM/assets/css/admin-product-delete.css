@@ -1,0 +1,90 @@
+.las.la-bars.wrapper-menu:hover, .ri-menu-line.wrapper-menu:hover {
+    cursor: pointer;
+}
+
+.btn.border.sign-out{
+    font-weight: bold;
+    font-size: medium;
+}
+
+.btn.border.sign-out:hover{
+    background-color: #e32323;
+    color: #ffffff;
+    transition: all 0.7s ease-in-out;
+}
+
+/* ===== Google Font Import - Poppins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+#modal-delete{
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    padding: 20px;
+    background-color: white;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    position: relative;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0} 
+    to {top: 0; opacity: 1}
+}
+
+.title-close-delete{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.close:hover{
+    cursor: pointer;
+}
+
+.badge:hover{
+    cursor: pointer;
+}
+.submit-btn{
+    display: flex;
+    flex: wrap;
+    justify-content: end;
+    column-gap: 20px;
+}
+.btn-cancel{
+    background-color: #585454;
+    color: #ffffff;
+    transition: all 0.7s ease-in-out;
+    border: none;
+    border-radius: 5px;
+    padding: 0 20px;
+}
+.btn-cancel:hover, .btn-delete:hover{
+    opacity: 0.7;
+}
+.btn-cancel:active, .btn-delete:active{
+    opacity: 0.3;
+}
+.btn-delete{
+    background-color: #f85353;
+    color: #ffffff;
+    transition: all 0.7s ease-in-out;
+    border: none;
+    border-radius: 5px;
+    padding: 0 20px;
+}

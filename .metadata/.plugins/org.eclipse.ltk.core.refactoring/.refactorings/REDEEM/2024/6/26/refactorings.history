@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ToCheckoutProduct.java&apos; to &apos;RedeemMe/src/main/java/redeemMe.product.controller&apos;&#x0D;&#x0A;- Original project: &apos;REDEEM&apos;&#x0D;&#x0A;- Destination element: &apos;RedeemMe/src/main/java/redeemMe.product.controller&apos;&#x0D;&#x0A;- Original element: &apos;redeemMe.product.controller.ToCheckoutProduct.java&apos;" description="Copy compilation unit" destination="=RedeemMe/src\/main\/java&lt;redeemMe.product.controller" element1="/src\/main\/java&lt;redeemMe.product.controller{ToCheckoutProduct.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1719741730320" units="1" version="1.0"/>
+</session>

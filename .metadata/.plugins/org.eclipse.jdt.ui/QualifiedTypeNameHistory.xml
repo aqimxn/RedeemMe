@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="redeemMe.supplier.dao.SupplierDAO"/>
+    <fullyQualifiedTypeName name="java.security.NoSuchAlgorithmException"/>
+    <fullyQualifiedTypeName name="java.security.MessageDigest"/>
+    <fullyQualifiedTypeName name="model.Booking"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.Part"/>
+    <fullyQualifiedTypeName name="java.io.InputStream"/>
+    <fullyQualifiedTypeName name="java.sql.Blob"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="javax.print.DocFlavor.URL"/>
+    <fullyQualifiedTypeName name="java.net.URL"/>
+    <fullyQualifiedTypeName name="redeemMe.user.dao.UserDAO"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="redeemMe.Order.dao.OrderDAO"/>
+    <fullyQualifiedTypeName name="redeemMe.user.model.User"/>
+    <fullyQualifiedTypeName name="redeemMe.product.dao.ProductDAO"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.annotation.MultipartConfig"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="redeemMe.Order.model.Order"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.text.DateFormatSymbols"/>
+</qualifiedTypeNameHistroy>

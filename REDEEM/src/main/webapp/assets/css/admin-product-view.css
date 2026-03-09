@@ -1,0 +1,139 @@
+/* General Modal Styles */
+#modal-view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+.modal-container-view {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 80%;
+    height: 300px;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+
+.modal-container-view {
+    text-align: center;
+}
+
+.modal-left-right{
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 1.5fr 2fr;
+}
+
+.modal-left-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-left-image img {
+    max-width: 100%; /* Ensure image fits the container */
+    height: auto;
+    border: none;
+    padding: 10px;
+}
+
+.modal-right-info {
+    flex: 1;
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-self: center;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.product-attribute{
+    width: 100%;
+    display: flex;
+}
+
+.product-info {
+    font-weight: bold;
+}
+
+#back-button {
+    align-self: flex-end;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 5px;
+}
+
+#back-button:hover {
+    background-color: #ddd;
+}
+
+.close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0} 
+    to {top: 0; opacity: 1}
+}
+
+.close:hover{
+    cursor: pointer;
+}
+
+.badge:hover{
+    cursor: pointer;
+}
+
+/* For smaller screens */
+@media (max-width: 600px) {
+    .modal-container-view {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .modal-left-right{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .modal-right-info {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .modal-right-info span {
+        text-align: center;
+    }
+
+    #back-button {
+        align-self: center;
+        margin-top: 20px;
+    }
+}
