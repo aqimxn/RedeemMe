@@ -75,6 +75,9 @@ RedeemMe/
 ├── build/                 # Compiled project files
 ├── .settings/             # Eclipse configuration
 │
+└── Documentation          # User manual & demonstrations
+└── redeemme.sql           # Database schema
+└── redeemme.war           # Project WAR file
 └── README.md              # Project documentation
 ```
 
@@ -101,8 +104,7 @@ git clone https://github.com/aqimxn/RedeemMe.git
 ### 2️⃣ Import project into Eclipse
 
 1. Open Eclipse
-2. Select **Import → Existing Projects into Workspace**
-3. Choose the project folder
+2. Import RedeemMe.war
 
 ### 3️⃣ Configure Apache Tomcat
 
