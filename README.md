@@ -164,7 +164,4 @@ This project demonstrates:
 
 **Muhammad Aqiman**
 
-Computer Science Graduate
-Interested in **Backend Engineering, Cloud Systems, and Software Development**
-
 GitHub: https://github.com/aqimxn
